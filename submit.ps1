@@ -16,7 +16,7 @@ if (-not (IsGitRepository)) {
 }
 
 # Prompt for the email address
-$email = Read-Host -Prompt "domonkos.szer@stud.unibas.ch"
+$email = Read-Host -Prompt "Enter Email Address"
 
 # Trim and convert the email to lowercase
 $email = $email.Trim().ToLower()
