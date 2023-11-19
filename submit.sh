@@ -36,3 +36,5 @@ fi
 touch "$directory/$hash.txt"
 
 echo "File created with hash: $hash"
+
+
