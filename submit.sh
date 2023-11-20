@@ -28,7 +28,7 @@ if ! is_git_repository; then
 fi
 
 # Prompt for the email address
-read -p "Enter your email address: " email
+read -p "d.koc@stud.unibas.ch " email
 
 # Trim and convert the email to lowercase
 email=$(echo "$email" | xargs | tr '[:upper:]' '[:lower:]')
@@ -46,3 +46,5 @@ fi
 touch "$directory/$hash.txt"
 
 echo "File created with hash: $hash"
+
+
